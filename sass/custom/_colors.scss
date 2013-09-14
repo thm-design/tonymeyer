@@ -42,6 +42,6 @@ $nav-bg-front: image-url('noise.png');
 //$pre-border: darken($base02, 5);
 //$pre-color: $base1;
 $greyshade: #cccccc;
-body { background: #232527!important; color: #ccced0; }
-.mid-col { background: #1a1c1e; }
-.container .mid-col .mid-col-container #content article h1.title a { color: white; }
+body { background: #232527!important; color: #ccced0!important; }
+.mid-col { background: #1a1c1e!important; }
+.container .mid-col .mid-col-container #content article h1.title a { color: white!important; }
