@@ -1,3 +1,9 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
-body .left-col { opacity: .8!important; }
+.left-col 		{ opacity: .8!important; }
+article 		{ border: none!important; }
+body 			{ background: #232527!important; color: #666!important; }
+.mid-col 		{ background: #1a1c1e!important; }
+.container .mid-col .mid-col-container #content article h1.title a { color: #ccced0!important; }
+#pagenavi 		{ border-top: 1px solid #373a3d!important; border-bottom: 1px solid #373a3d!important; }
+footer 			{ border:none!important; }
