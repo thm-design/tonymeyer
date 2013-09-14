@@ -7,7 +7,7 @@ title: tony h. meyer
 subtitle: web development
 author: tony h. meyer
 simple_search: http://google.com/search
-description: personal site of web development
+description: mediamaker@gmail.com
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -79,7 +79,7 @@ google_plus_one_size: medium
 
 # Google Plus Profile
 # Hidden: No visible button, just add author information to search results
-googleplus_user: https://plus.google.com/u/0/112968832674539302125
+googleplus_user: 112968832674539302125
 googleplus_hidden: false
 
 # Pinboard
