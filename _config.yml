@@ -3,11 +3,11 @@
 # ----------------------- #
 
 url: http://thm-design.github.io//github
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+title: tony h. meyer
+subtitle: web development
+author: tony h. meyer
 simple_search: http://google.com/search
-description:
+description: personal site of web development
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
