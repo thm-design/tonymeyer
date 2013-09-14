@@ -7,7 +7,7 @@
 //$nav-bg: desaturate(lighten(#8fc17a, 18), 5);
 $nav-bg-front: image-url('noise.png');
 //$nav-bg-back: linear-gradient(lighten($nav-bg, 8), $nav-bg, darken($nav-bg, 11));
-$sidebar-bg: desaturate(#232527, 0.1);
+//$sidebar-bg: desaturate(#232527, 0.1);
 //$sidebar-link-color: saturate(#526f9a, 10);
 //$sidebar-link-color-hover: darken(#7ab662, 9);
 //$footer-bg: #ccc !default;
@@ -42,4 +42,4 @@ $sidebar-bg: desaturate(#232527, 0.1);
 //$pre-border: darken($base02, 5);
 //$pre-color: $base1;
 $greyshade: #cccccc;
-//body { background: #232527; }
+body { background: #232527!important; }
