@@ -172,6 +172,7 @@ body {
 	}
 	.left-col {
 		width: 16%;
+		min-width:300px;
 		position: fixed;
 		opacity: .3;
 		-webkit-transition: all .2s ease-in;
@@ -244,7 +245,7 @@ body {
 			margin: 0 0;
 	}
 }
-@media screen and (max-width: 700px){
+@media screen and (max-width: 1400px){
 	.container {
 		.credit-box {
 			display: none;
