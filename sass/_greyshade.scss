@@ -74,8 +74,9 @@ body {
 	.mid-col {
 		position: absolute;
   		right: 0;
+  		left: 370px;
   		min-height: 100%;
-		width: 84%;
+		width: 80%;
 		background: white;
 		#banner {
 			width: 100%;
@@ -171,8 +172,8 @@ body {
 		opacity: 1;
 	}
 	.left-col {
-		width: 16%;
-		min-width:300px;
+		width: 20%;
+		min-width:370px;
 		position: fixed;
 		opacity: .3;
 		-webkit-transition: all .2s ease-in;
@@ -181,12 +182,12 @@ body {
 		-ms-transition: all .2s ease-in;
 		transition: all .2s ease-in;
 		height: 100%;
-		.intrude-less {
-			width: 80%;
-		}
+		// .intrude-less {
+		// 	width: 80%;
+		// }
 		#header {
 			width: 100%;
-			padding: 20% 0% 0% 15%;
+			padding: 20% 0% 0% 30%;
 			#main-nav {
 				margin-top: 10px;
 			}
@@ -275,6 +276,7 @@ body {
 			}
 		}
 		.mid-col {
+			left: 0px;
 			float: none;
 			width: 100%;
 			.mid-col-container {
