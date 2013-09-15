@@ -272,6 +272,10 @@ min-height: 1px;
 	padding-right: 30%;
 }
 
+.ib-text { 
+	margin-top:0;
+}
+
 .info-block a.btn {
 	position: absolute;
 	top: 50%;
@@ -295,6 +299,7 @@ min-height: 1px;
 	cursor: pointer;
 	border: none;
 	-webkit-font-smoothing: antialiased;
+	text-decoration: none;
 }
 
 .btn:hover, .btn:focus {
