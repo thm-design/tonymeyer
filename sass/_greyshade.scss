@@ -534,10 +534,14 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Helvetica Neue', Helvetica, Arial, sans-s
 		text-align: center;
 		-webkit-font-smoothing: antialiased;
 	}
+	#title h1 {
+		font-size: 2.8em!important;
+	}
 	
 	#title .span12 {
 		padding-bottom: 35px;
 		border-bottom: 1px solid #373a3d;
+		width: 100%;
 	}
 	
 	#title .date {

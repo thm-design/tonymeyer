@@ -1,13 +1,18 @@
 ---
 layout: default
 ---
-
-<article class="page">
-    {% if page.title %}
-    <h1 class="title">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
-    {% endif %}
-    <div class="entry-content">{{ content }}</div>
-</article>
+<section id="title" class="container">
+		<div class="row">
+			<div class="span12">
+				{% if page.title %}
+				<h1 style="margin-bottom:0;">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
+				{% endif %}
+				{% if page.subtitle %}
+				<p>{{ page.subtitle }}{% endif %}</p>
+			</div>
+		</div>
+</section>
+<div class="entry-content">{{ content }}</div>
 {% unless page.sharing == false %}
 	{% include post/sharing.html %}
 {% endunless %}
