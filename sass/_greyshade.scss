@@ -326,11 +326,12 @@ p span.mute {
 
 h5.cv-section-title { 
 	font-size: 20px; 
-	font-weight: normal; 
+	font-weight: normal;
+	padding-left: 230px; 
 }
 
 .cbp_tmtimeline {
-	margin: 30px 0 0 0;
+	margin: 0px 0 0 0;
 	padding: 0;
 	list-style: none;
 	position: relative;
@@ -439,7 +440,7 @@ h5.cv-section-title {
 .cbp_tmtimeline > li .cbp_tmicon {
 	width: 40px;
 	height: 40px;
-	font-family: 'ecoico';
+	font-family: FontAwesome;
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
