@@ -414,6 +414,7 @@ h5.cv-section-title {
 }
 .cbp_tmtimeline > li .cbp_tmlabel p { 
 	color: white!important;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 /* The triangle */
@@ -525,5 +526,69 @@ h5.cv-section-title {
 }
 
 h1, h2, h3, h4, h5, h6 { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: bold; color: white; text-rendering: optimizelegibility; -webkit-font-smoothing: antialiased; margin: 0 0 0.6em 0; }
+/* Titles ------------------------------------------ */
+	
+	#title {
+		margin-top: 67px;
+		margin-bottom: 62px;
+		text-align: center;
+		-webkit-font-smoothing: antialiased;
+	}
+	
+	#title .span12 {
+		padding-bottom: 35px;
+		border-bottom: 1px solid #373a3d;
+	}
+	
+	#title .date {
+		margin: -33px 0 5px 0;
+	}
+	
+	#page-title {
+		margin-top: 48px;
+		margin-bottom: 50px;
+		-webkit-font-smoothing: antialiased;
+	}
+	
+	#page-title hr {
+		margin-top: 30px;
+	}
+	
+	#page-title h2 {
+		display: block;
+		float: left;
+		padding: 0;
+		margin: 0;
+	}
+	
+	#page-title h2 + .dropdown {
+		position: relative;
+		top: -7px;
+		float: left;
+		margin-left: 80px;
+	}
+	
+	#page-title .span2 p {
+		color: #4e5257;
+		font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+		text-align: right;
+		line-height: 1;
+		margin-top: 7px;
+	}
 
+	#page-title .span2 .number {
+		display: block;
+		font-size: 30px;
+	}
+	
+	.up-title {
+		display: block;
+		font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		font-weight: bold;
+		font-size: 12px;
+		color: white;
+		text-transform: uppercase;
+		-webkit-font-smoothing: antialiased;
+	}
 
