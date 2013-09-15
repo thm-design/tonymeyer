@@ -292,3 +292,339 @@ body {
 		}
 	}
 }
+
+// timeline css
+
+.cbp_tmtimeline {
+	margin: 30px 0 0 0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+}
+
+.span3 {
+	width: 18%;
+}
+cbp_tmtime
+/*tooltip CSS*/
+	.tooltip {
+		display:none;
+		position:absolute;
+		border:1px solid #333;
+		background-color:#161616;
+		border-radius:3px;
+		padding:2px 5px 2px 5px;
+		color:#fff;
+		font-size:15px;
+	}
+
+/* The line */
+.cbp_tmtimeline:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 10px;
+	background: #232527;
+	left: 20%;
+	margin-left: -42px;
+}
+
+.cbp_tmtimeline>li {
+	position: relative;
+}
+
+/* The date/time */
+.cbp_tmtimeline > li .cbp_tmtime {
+	display: block;
+	width: 25%;
+	padding-right: 140px;
+	position: absolute;
+}
+
+.cbp_tmtimeline > li .cbp_tmtime span {
+	// display: block;
+	text-align: right;
+}
+
+.cbp_tmtimeline > li .cbp_tmtime span:first-child {
+	font-size: 1.1em;
+
+}
+
+.cbp_tmtimeline > li .cbp_tmtime span:last-child {
+	font-size: 1.5em;
+	padding-top: 8px;
+	
+}
+
+.cbp_tmtimeline > li:nth-child(odd) .cbp_tmtime span:last-child {
+	
+}
+
+/* Right content */
+.cbp_tmtimeline > li .cbp_tmlabel {
+	margin: 0 0 15px 15%;
+	background: #232527;
+	padding: 2em;
+	position: relative;
+	border-radius: 5px;
+}
+
+.cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel {
+	background: #232527;
+}
+
+.cbp_tmtimeline > li .cbp_tmlabel h2 { 
+	margin-top: 0px;
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid rgba(255,255,255,0.4);
+	font-size: 1.5em;
+	letter-spacing: -1px;
+}
+.cbp_tmtimeline > li .cbp_tmlabel h6, .cbp_tmtimeline > li .cbp_tmlabel a { 
+
+	font-weight: normal;
+}
+
+/* The triangle */
+.cbp_tmtimeline > li .cbp_tmlabel:after {
+	right: 100%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-right-color: #232527;
+	border-width: 10px;
+	top: 10px;
+}
+
+.cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel:after {
+	border-right-color: #232527;
+}
+
+/* The icons */
+.cbp_tmtimeline > li .cbp_tmicon {
+	width: 40px;
+	height: 40px;
+	font-family: 'ecoico';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	font-size: 1.7em;
+	line-height: 34px;
+	-webkit-font-smoothing: antialiased;
+	position: absolute;
+	color: #fff;
+	background: #A27A13;
+	border-radius: 50%;
+	box-shadow: 0 0 0 8px #232527;
+	text-align: center;
+	left: 15%;
+	top: 0;
+	margin: 0 0 0 -56px;
+}
+
+.cbp_tmicon-phone:before {
+	content: "\e000";
+}
+
+.cbp_tmicon-screen:before {
+	content: "\e001";
+}
+
+.cbp_tmicon-mail:before {
+	content: "\e002";
+}
+
+.cbp_tmicon-earth:before {
+	content: "\e003";
+}
+
+/* --------- iPhone Vertical  --------- */
+@media (max-width: 479px) { 
+
+}
+
+@media screen and (max-width: 1663px) { 
+	.cbp-vimenu {
+		font-size: 70%;
+		height: 5em!important;
+		left: 40px!important;
+	}
+
+}
+
+@media screen and (max-width: 1363px) { 
+	.cbp-vimenu {
+		left: 0px!important;
+	}
+
+}
+
+
+@media screen and (max-width: 767px) {
+
+	.cbp_tmtimeline > li .cbp_tmlabel h2 { 
+		font-size: 1.2em;
+	}
+
+	.cbp_tmtimeline:before {
+		display: none;
+	}
+
+	.cbp_tmtimeline > li .cbp_tmtime {
+		width: 100%;
+		position: relative;
+		padding: 0 0 20px 0;
+	}
+
+	.cbp_tmtimeline > li .cbp_tmtime span {
+		text-align: left;
+	}
+
+	.cbp_tmtimeline > li .cbp_tmlabel {
+		margin: 0 0 30px 0;
+		padding: 1em;
+		font-weight: 400;
+		font-size: 95%;
+	}
+
+	.cbp_tmtimeline > li .cbp_tmlabel:after {
+		right: auto;
+		left: 20px;
+		border-right-color: transparent;
+		border-bottom-color: #232527;
+		top: -20px;
+	}
+
+	.cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel:after {
+		border-right-color: transparent;
+		border-bottom-color: #232527;
+	}
+
+	.cbp_tmtimeline > li .cbp_tmicon {
+		position: relative;
+		float: right;
+		left: auto;
+		margin: -55px 5px 0 0px;
+	}
+
+
+	.cbp-vimenu {
+		font-size: 70%;
+		background: #232527;
+		height: 5em!important;
+		left: 0px!important;
+		top: 80px!important;
+	}
+
+	.cbp-vimenu ul {
+		
+	}	
+}
+
+
+/*----Vertical Icon Menu -----------*/
+
+.cbp-vimenu {
+	position: fixed;
+	/*overflow: hidden;*/
+	top: 240px;
+	left: 100px;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	z-index: 100;
+	-webkit-transform: translateZ(0);
+	opacity: 0;
+}
+
+ul.cbp-vimenu span {
+	text-align: center;
+	display: block;
+	line-height: 12px;
+	margin-top: -21px;
+}
+
+.quicknav {
+	background: transparent url("../../../uploads/quicknav.png") no-repeat 0px 0px;
+	width: 118px;
+	height: 67px;
+	position: absolute;
+	top: -50px;
+	left: 80px;
+}
+
+.cbp-vimenu li a {
+	display: block;
+	height: 5em;
+	width: 6em;
+	line-height: 4em;
+	text-align: center;
+	color: #999;
+	position: relative;
+	border-bottom: 1px solid rgba(0,0,0,0.05);
+	-webkit-transition: background 0.1s ease-in-out;
+	-moz-transition: background 0.1s ease-in-out;
+	transition: background 0.1s ease-in-out;
+	outline: none;
+	cursor: pointer;
+	font-weight: normal;
+
+}
+
+.cbp-vimenu li a div {
+	font-size: 1em;
+}
+.cbp-vimenu li {
+	background: #232527;
+}
+
+
+.cbp-vimenu li a:hover {
+	background: #A27A13;
+	color: #fff;
+}
+
+/* class for current item */
+.cbp-vimenu li.cbp-vicurrent a {
+	background: #A8820B;
+	color: #fff;
+}
+
+.cbp-vimenu li a:before {
+	font-family: 'ecoico';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	text-indent: 0em;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	font-size: 1.4em;
+	-webkit-font-smoothing: antialiased;
+}
+
+.cbp-vimenu li a.icon-logo:before {
+	content: "C";
+	font-weight: 700;
+	font-size: 300%;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+}
+
+/* Example for media query (depends on total height of menu) */
+@media screen and (max-height: 34.9375em) { 
+
+	.cbp-vimenu {
+	
+	}
+
+
+}

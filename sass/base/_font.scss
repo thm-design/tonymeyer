@@ -15,3 +15,15 @@ $font-icon-path: "fontawesome-webfont";
 	font-weight: normal;
 	font-style: normal;
 }
+
+// timeline css
+@font-face {
+	font-family: 'ecoico';
+	src:url('../timelineicons/ecoico.eot');
+	src:url('../timelineicons/ecoico-.eot#iefix') format('embedded-opentype'),
+		url('../timelineicons/ecoico.woff') format('woff'),
+		url('../timelineicons/ecoico.ttf') format('truetype'),
+		url('../timelineicons/ecoico.svg#ecoico') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
