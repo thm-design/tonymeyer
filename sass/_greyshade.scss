@@ -305,18 +305,6 @@ body {
 .span3 {
 	width: 18%;
 }
-cbp_tmtime
-/*tooltip CSS*/
-	.tooltip {
-		display:none;
-		position:absolute;
-		border:1px solid #333;
-		background-color:#161616;
-		border-radius:3px;
-		padding:2px 5px 2px 5px;
-		color:#fff;
-		font-size:15px;
-	}
 
 /* The line */
 .cbp_tmtimeline:before {
@@ -381,6 +369,7 @@ cbp_tmtime
 	border-bottom: 1px solid rgba(255,255,255,0.4);
 	font-size: 1.5em;
 	letter-spacing: -1px;
+	color: white;
 }
 .cbp_tmtimeline > li .cbp_tmlabel h6, .cbp_tmtimeline > li .cbp_tmlabel a { 
 
