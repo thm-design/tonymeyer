@@ -438,7 +438,7 @@ h5.cv-section-title {
 .cbp_tmtimeline > li .cbp_tmicon {
 	width: 40px;
 	height: 40px;
-	font-family: 'FontAwesome';
+	font-family: 'ecoico';
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
@@ -474,29 +474,8 @@ h5.cv-section-title {
 	content: "\e003";
 }
 
-/* --------- iPhone Vertical  --------- */
-@media (max-width: 479px) { 
 
-}
-
-@media screen and (max-width: 1663px) { 
-	.cbp-vimenu {
-		font-size: 70%;
-		height: 5em!important;
-		left: 40px!important;
-	}
-
-}
-
-@media screen and (max-width: 1363px) { 
-	.cbp-vimenu {
-		left: 0px!important;
-	}
-
-}
-
-
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1690px) {
 
 	.cbp_tmtimeline > li .cbp_tmlabel h2 { 
 		font-size: 1.2em;
